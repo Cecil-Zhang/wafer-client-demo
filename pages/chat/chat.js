@@ -214,7 +214,12 @@ Page({
 
         setTimeout(() => {
             if (this.data.inputContent && this.tunnel) {
-                this.tunnel.emit('speak', { word: this.data.inputContent });
+
+              this.tunnel.emit('speak', {
+                word: this.data.inputContent,
+                who: "omoEa0WpBLYzYjwrWpSXhGG4GlOk",
+                to: "TESTER" 
+              });
                 this.setData({ inputContent: '' });
             }
         });

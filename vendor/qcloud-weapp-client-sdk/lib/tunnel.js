@@ -282,7 +282,7 @@ function Tunnel(serviceUrl) {
             type: PACKET_TYPE_MESSAGE,
             content: {
                 type: messageType,
-                content: messageContent,
+                content: messageContent
             },
         };
 

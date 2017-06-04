@@ -176,6 +176,8 @@ Page({
             // 使用信道给服务器推送「speak」消息
             this.tunnel.emit('speak', {
                 'word': 'I say something at ' + new Date(),
+                'who': 'omoEa0WpBLYzYjwrWpSXhGG4GlOk',
+                'to': 'TESTER'
             });
         }
     },
